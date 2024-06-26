@@ -1,8 +1,12 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from '../styles/index.module.css'
-import { WorkBadge } from '../components/workBadge/workBadge';
+import * as C from '../styles/index'
+// import { WorkBadge } from '../components/workBadge/workBadge';
 import { About } from '../components/about/about';
+import Agumon from '../public/images/agumon.gif'
+
 
 export default function Home() {
   return (
@@ -12,23 +16,29 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.menu}>
-        <p>Olá hehehe</p>
-        <div>
-          <Link href='/projects'>Projects</Link>
-          <Link href='/hobbies'>Hobbies</Link>
-        </div>
-      </div>
+      <C.Menu>
+        <Image 
+            src={Agumon}
+            width={45}
+            height={45}
+            alt='Agumon'
+          />
+          <div>
+            <Link href='/projects'>Projects</Link>
+            <Link href='/hobbies'>Hobbies</Link>
+          </div>
+      </C.Menu>
 
-      <main className={styles.container}>
-        <h1 className={styles.title}>
+      <C.Container>
+      
+        <C.Title>
           Guilherme Vaz
-        </h1>
+        </C.Title>
 
-        <section className={styles.work}>
+        <C.Work>
           <About />
-        </section>
-      </main>
+        </C.Work>
+      </C.Container>
     </div>
   );
 }
