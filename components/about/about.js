@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import * as C from './style'
-import { AiOutlineGithub } from "react-icons/ai";
+import { AiOutlineGithub, AiFillLinkedin, AiOutlineInstagram, AiFillSpotify,  } from "react-icons/ai";
+import { SiSteam } from "react-icons/si";
 import { Divisor } from '../Divisor/divisor'
 import { WorkBadge } from '../workBadge/workBadge';
 
@@ -44,9 +45,17 @@ export const About = () => {
                 Find me on
             </C.Subtitle>
 
-            <C.Paragraph $marginBottom>
-                <WorkBadge img={<AiOutlineGithub size={20}/>} link='https://github.com/guilherme-vaz' text={'GitHub'} />
-            </C.Paragraph>
+            <C.Social>
+                <WorkBadge notImg img={<AiOutlineGithub size={20}/>} link='https://github.com/guilherme-vaz' text={'GitHub'} />
+                <WorkBadge notImg img={<AiFillLinkedin size={20}/>} link='https://www.linkedin.com/in/guiilherme-vaz/' text={'LinkedIn'} />
+                <WorkBadge notImg img={<AiOutlineInstagram size={20}/>} link='https://www.instagram.com/guiilherme.vaz/' text={'Instagram'} />
+                <WorkBadge notImg img={<AiFillSpotify size={20}/>} link='https://open.spotify.com/user/kinquas?si=8667311005c74cfe' text={'Spotify'} />
+                <WorkBadge notImg img={<SiSteam size={18}/>} link='https://steamcommunity.com/id/kinquas/' text={'Steam'} />
+            </C.Social>
+
+            <C.SmallText $paddingTop>Or mail me at guilhermeolivaaz@gmail.com</C.SmallText>
+            <C.SmallText $opacity $marginTop $textAlign $marginBottom>2024-PRESENT &#169; Guilherme Vaz</C.SmallText>
+
 
         </div>
     )

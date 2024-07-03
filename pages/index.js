@@ -15,18 +15,19 @@ export default function Home() {
         <title>Guilherme Vaz</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <C.Menu>
+      
+      <C.Menu>  
         <Image 
             src={Agumon}
             width={45}
             height={45}
             alt='Agumon'
+            unoptimized
           />
-          <div>
-            <Link href='/projects'>Projects</Link>
-            <Link href='/hobbies'>Hobbies</Link>
-          </div>
+        <C.LinksContainer>
+          <Link style={{color: '#404f6b'}} href='/projects'>Projects</Link>
+          <Link style={{color: '#404f6b'}}  href='/hobbies'>Hobbies</Link>
+        </C.LinksContainer>
       </C.Menu>
 
       <C.Container>
