@@ -1,5 +1,5 @@
 import '../styles/global.css'
-import { Poppins } from 'next/font/google'
+import { Poppins } from '@next/font/google'
 
 // Subsets are really important. CHECK BELOW FOR MORE INFO
 const poppins = Poppins({

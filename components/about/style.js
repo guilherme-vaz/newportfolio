@@ -10,7 +10,7 @@ export const Paragraph = styled.div`
 
 export const Emphasis = styled.strong`
     font-weight: bold;
-    color: ${(props) => (props.$color ? '#404f6b' : 'orange')};
+    color: ${(props) => (props.$color ? '#404f6b' : '#404f6b')};
     text-decoration: ${(props) => (props.$underline ? 'underline' : 'none')};
     text-decoration-color: rgba(64, 79, 107, 0.4);
 `;

@@ -9,11 +9,16 @@ export const About = () => {
     return (
         <div>
             <C.Paragraph>
-                Hello I'm Guilherme, a software developer graduated in <C.Emphasis>Computer Science</C.Emphasis> from the Federal University of Alagoas, Brazil.
+                Hello I'm Guilherme, a software developer who also loves Design.
+            </C.Paragraph>
+            {/* graduated in <C.Emphasis>Computer Science</C.Emphasis> from the Federal University of Alagoas, */}
+
+            <C.Paragraph>
+                I currently work as a Software Analyst using <C.Emphasis>Javascript</C.Emphasis>, <C.Emphasis>Typescript</C.Emphasis>, and <C.Emphasis>jQuery</C.Emphasis> for a company focused on vehicle fleet and cargo tracking solutions.
             </C.Paragraph>
 
             <C.Paragraph>
-                In my last job, I was responsible for developing web interfaces using <C.Emphasis>React.js and TypeScript</C.Emphasis> at AIRed Geotecnologia. I was able to provide support integrating a payment API for our SaaS product, as well as bring new components and styling using <C.Emphasis>Styled-components</C.Emphasis>.
+                In my last job, I was responsible for developing web interfaces using <C.Emphasis>React.js and TypeScript</C.Emphasis>. I was able to provide support integrating a payment API for our SaaS product, as well as bring new components and styling using <C.Emphasis>Styled-components</C.Emphasis>.
             </C.Paragraph>
 
             <C.Paragraph>
@@ -22,12 +27,12 @@ export const About = () => {
             </C.Paragraph>
 
             <C.Paragraph>
-                Additionally, I have experience in backend development and Machine learning with <C.Emphasis>Node</C.Emphasis>, <C.Emphasis>AWS Serverless</C.Emphasis>, <C.Emphasis>DynamoDB</C.Emphasis>, <C.Emphasis>MySQL</C.Emphasis>, <C.Emphasis>Django</C.Emphasis> and <C.Emphasis>Python</C.Emphasis>.
+                Additionally, I also enjoy to study <C.Emphasis>Machine learning</C.Emphasis> with <C.Emphasis>Python</C.Emphasis>.
             </C.Paragraph>
 
             <Divisor />
 
-            <C.Subtitle>
+            {/* <C.Subtitle>
                 Volunteer Work
             </C.Subtitle>
 
@@ -37,9 +42,7 @@ export const About = () => {
 
             <C.Paragraph>
                 I volunteered with the <Link href={'https://devsfree.com.br/'} target='_blank'><C.Emphasis $underline $color>DevsFree</C.Emphasis></Link> community, where I redesigned a client's platform and led the frontend development team for its creation. Unfortunately, I had to conclude my involvement before the project was completed, but you can view the design I created <Link href={'https://www.figma.com/proto/cKVpsTL8UMWs3z8uytmRfD/ICPA---Website?node-id=1133-2&starting-point-node-id=1133%3A2&t=abGJBorl1OwVZyEp-1'} target='_blank'><C.Emphasis $underline $color>here</C.Emphasis></Link>.
-            </C.Paragraph>
-
-            <Divisor />
+            </C.Paragraph> */}
 
             <C.Subtitle>
                 Find me on

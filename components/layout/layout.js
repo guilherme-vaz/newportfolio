@@ -19,6 +19,8 @@ export default function Layout({children}) {
                 <C.LinksContainer>
                     <Link style={{color: '#404f6b'}} href='/projects'>Projects</Link>
                     <Link style={{color: '#404f6b'}}  href='/hobbies'>Hobbies</Link>
+                    <Link style={{color: '#404f6b'}}  href='/volunteer'>Volunteer</Link>
+                    <Link style={{color: '#404f6b'}}  href='/volunteer'>Design works</Link>
                 </C.LinksContainer>
             </C.Menu>
 

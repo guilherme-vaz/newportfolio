@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const Title = styled.div`
     font-size: 36px;
+    font-weight: 700;
     line-height: 40px;
-    color: #000000;
+    color: #363636;
 `;
 
 export const Work = styled.section`
